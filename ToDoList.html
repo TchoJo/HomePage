@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href=TDL_Style.css> <!--link the css stylesheet-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="title">HOMEPAGE</title>
+</head>
+<body class="light">
+    <div id="muh" class="header">
+        <h1 class="pract">Home Page</h1>
+ <!-- <p class="para">Keep A Skrt project.</p> -->  
+    <h1 class="head">TO DO LIST</h1>
+    <br>
+    <br>
+    <input type="text" id="muhinput" placeholder="Do this and that">
+    <span class="addtolistbtn" id="addtolistbtn">Add</span>
+    <br>
+    <br>
+    <div class="bankcls" id="bank"> 
+    </div>
+    </div>
+    <div class="divPomo">
+    <h2 class="secondHeader">Pomodoro</h2>
+    <p class="whatIsPomodoro">The <span class="pomodSpan">Pomodoro</span> Technique is a management method <br> developed by Francesco Cirillo in the late 1980s.<br> It uses a timer to break work into intervals <br> traditionally 25 minutes in length <br> separated by short breaks, <br> give it a try.</p>
+        <br>
+        <br>
+        <br>
+        <br>
+    <div class="timeR">
+    <h3 class="minutesHeader" id="minutesHeader">T/I/M/E</h3>
+        <span class="startTheEngine" id="startTheEngine" onclick="startPomo()">START</span>
+        <span class="stopTheEngine" id="stopTheEngine" onclick="showStopTime()">STOP</span>
+        <span class="shortBreak" id="shortBreak" onclick="shortBreakPomo()">SHORT BREAK</span>
+        <span class="longBreak" id="longBreak" onclick="longBreakPomo()">LONG BREAK</span>
+   </div>
+    </div>
+
+    <script src="TDL_JS.js"></script> <!--link the js file-->
+    <script src="pomodorTimer.js"></script>
+    
+</body>
+</html>
+<!--export PATH="/opt/homebrew/bin:$PATH"!-->
