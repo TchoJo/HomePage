@@ -1,6 +1,7 @@
 /* Pomodoro Timer */
 const displayOnSight = document.getElementById("minutesHeader");
 
+
 //get elements 
 const starter = document.getElementById("startTheEngine");
 const stopper = document.getElementById("stopTheEngine");
@@ -10,9 +11,9 @@ const longBreaker = document.getElementById("longBreak");
 let set = 0;
 
 //  functions
-startPomo = () => pomodoroTimer(25 * 60);
-shortBreakPomo = () => pomodoroTimer(5 * 60);
-longBreakPomo = () =>  pomodoroTimer(15 * 60);
+startPomo = () => pomodoroTimer(25 * 60); //25 Minutes 
+shortBreakPomo = () => pomodoroTimer(5 * 60);//5 Minutes
+longBreakPomo = () =>  pomodoroTimer(15 * 60);//15 Minutes
 showStopTime = () => {
   clearInterval(set);
 }
