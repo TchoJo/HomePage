@@ -19,7 +19,7 @@ showStopTime = () => {
   set = null;
 }
   pomodoroTimer = (seconds) => {
-//    clearInterval(set)
+    clearInterval(set);
     const now = Date.now();
     if(!Date.now()) {
       Date.now = () => {
